@@ -7,30 +7,28 @@ body {
     padding: 1em;
     margin: 1em;
     margin-bottom: 0.5em;
-    border-radius: 1.5em;
-    width: 30%;
+    border-radius: 1em;
+    width: 100%;
     display: block;
+    height: auto;
 }
 
 .small_pizza {
     background-color: #FDF0D5;
-    flex: 1;
 }
 
 
 .medium_pizza {
     background-color: #FCBF49;
-    flex: 1;
 }
 
 .large_pizza {
     background-color: #F77F00;
-    flex: 1;
 }
 
 .contact_us {
     background-color: #D62828;
-    flex: 55;
+    width: 100;
 }
 
 @media (min-width:760px) {
@@ -45,6 +43,11 @@ body {
     }
     .pizzas {
         display: flex;
+    }
+
+    .title {
+        font-size: 2em;
+    font-family: fantasy;
     }
 
 }
