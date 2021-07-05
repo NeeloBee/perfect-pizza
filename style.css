@@ -6,29 +6,28 @@ body {
     border: 1px solid #FFBD00;
     padding: 1em;
     margin: 1em;
-    margin-bottom: 0.5em;
     border-radius: 1em;
-    width: 100%;
-    display: block;
-    height: auto;
 }
 
 .small_pizza {
     background-color: #FDF0D5;
+    flex: 0.5em
 }
 
 
 .medium_pizza {
     background-color: #FCBF49;
+    flex: 0.5em
 }
 
 .large_pizza {
     background-color: #F77F00;
+    flex: 0.5em
 }
 
 .contact_us {
     background-color: #D62828;
-    width: 100;
+    flex: 0.5em
 }
 
 @media (min-width:760px) {
@@ -48,6 +47,6 @@ body {
     .title {
         font-size: 2em;
     font-family: fantasy;
+        }
     }
-
 }
