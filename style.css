@@ -1,5 +1,5 @@
 body {
-    background-color: #003049;
+    background-color: #006CA5;
     font-family: cursive;
 }
 .pizza {
@@ -46,7 +46,7 @@ body {
 
     .title {
         font-size: 2em;
-    font-family: fantasy;
+    font-family: cursive;
         }
     }
 }
