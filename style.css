@@ -2,6 +2,12 @@ body {
     background-color: #006CA5;
     font-family: cursive;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
 .pizza {
     border: 1px solid #FFBD00;
     padding: 1em;
@@ -27,7 +33,7 @@ body {
 
 .contact_us {
     background-color: #D62828;
-    flex: 0.5em
+    flex: 0.5em;
 }
 
 @media (min-width:760px) {
